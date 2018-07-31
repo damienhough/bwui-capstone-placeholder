@@ -1,0 +1,97 @@
+/* About Page */
+
+/* Style our links*/
+
+ a{
+   color: #5683E0;
+   text-decoration: underline;
+   cursor: pointer;
+}
+
+a: hover{
+  text-decoration: none;
+  color: #62B4FF;
+}
+
+
+/* Style our footer links */
+.links a{
+  color: #5683E0;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.links a:hover{
+  text-decoration: none;
+  color: #62B4FF;
+}
+
+
+.about h1 {
+  width: 100%;
+  padding: 10.5rem 0;
+  background-image: url('../img/hero.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  /* font-size: inherit; */
+  font-stretch: condensed;
+  color: hsla(0,0%,95%,0.7);
+  text-decoration: none;
+  font-family: 'Lato', Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 90px;
+  letter-spacing: -1px;
+  margin-bottom: 15px;
+  margin-top: 2rem;
+}
+
+.about .information {
+  padding: 3.75rem 20% 6.75rem 20%;
+  color: hsla(0, 0%, 29%, 1);
+}
+
+.about h3 {
+  margin-bottom: 1rem;
+  font-family: 'Lato', Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+}
+
+.about p {
+  padding-bottom: 2rem;
+  font-size: inherit;
+  line-height: 1.8;
+  font-family: 'Lato', Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+.about .join {
+  display: grid;
+  justify-items: center;
+  padding: 1.5rem 0;
+  border: solid 1px #e7e7e7;
+  border-radius: 2px;
+  background-color: hsla(0, 0%, 100%, 1);
+}
+
+@media only screen and (max-width: 735px) {
+  .about h1 {
+    font-size: 6rem;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  .about h1 {
+    font-size: 4rem;
+  }
+
+  .about h3 {
+    font-size: 1.25rem;
+  }
+
+  .about p {
+    font-size: 1rem;
+  }
+}

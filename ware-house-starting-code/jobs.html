@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WareHouse</title>
+  <link rel="stylesheet" type="text/css" href="resources/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="resources/css/base.css">
+  <link rel="stylesheet" type="text/css" href="resources/css/jobs.css">
+</head>
+<body>
+  <div class="container">
+
+    <!-- Header -->
+
+    <header role="banner">
+      <div class="image-container">
+        <a href="index.html"><img src="resources/img/home.png" alt="Warehouse Logo"></a>
+      </div>
+      <div class="search-bar">
+        <input type="text" name="search" placeholder="Search for items">
+        <a href="" class="icon"><img src="resources/img/search.svg" alt="Search for Items"></a>
+      </div>
+      <a href="cart.html" class="button cart" role="button">Cart <img src="resources/img/cart.svg" alt="View Shopping Cart"></a>
+    </header>
+    <nav role="navigation" aria-label="main navigation">
+      <a href="deals.html" class="nav-link">Today's Deals</a>
+      <a href="products.html" class="nav-link">Products</a>
+      <a href="about.html" class="nav-link">About Us</a>
+      <a href="sell.html" class="nav-link">Sell</a>
+      <a href="#" class="nav-link">Help</a>
+    </nav>
+
+    <!-- Job List Section -->
+
+    <section id="main" class="jobs" role="region" aria-label="Jobs List Section">
+      <h3>Jobs</h3>
+
+      <!-- Job Search Bar -->
+
+      <form role="form">
+        <div id="name" class="field">
+          <label for="name">Job Name</label>
+          <input type="text" name="job.name" placeholder="Name of job">
+        </div>
+        <div id="name" class="field">
+          <label for="name">Job Location</label>
+          <input type="text" name="job.location" placeholder="Job location">
+        </div>
+        <a href="#" class="button" role="button">Go</a>
+      </form>
+
+      <!-- Recently Posted Job List -->
+
+      <h3>Recently Posted</h3>
+      <div class="job-list">
+        <div class="job">
+          <h4>Director, Showroom Experience</h4>
+          <span>New York, NY</span>
+        </div>
+        <div class="job">
+          <h4>Senior Manager, Showroom Experience</h4>
+          <span>New York, NY</span>
+        </div>
+        <div class="job">
+          <h4>Executive Assistant</h4>
+          <span>New York, NY</span>
+        </div>
+        <div class="job">
+          <h4>Marketing Manager, Digital Acquisition</h4>
+          <span>New York, NY</span>
+        </div>
+        <div class="job">
+          <h4>Seniore Software Engineer</h4>
+          <span>New York, NY</span>
+        </div>
+        <div class="job">
+          <h4>Principal Researcher</h4>
+          <span>New York, NY</span>
+        </div>
+        <div class="job">
+          <h4>Software Engineer, Campus Recruiter</h4>
+          <span>New York, NY</span>
+        </div>
+        <div class="job">
+          <h4>Staff Engineer</h4>
+          <span>New York, NY</span>
+        </div>
+        <div class="job">
+          <h4>Director of Data Engineering</h4>
+          <span>New York, NY</span>
+        </div>
+      </div>
+      <a href="#" class="button" id="see-all-jobs" role="button">See All Open Jobs</a>
+    </section>
+
+    <!-- Footer -->
+
+    <footer role="contentinfo">
+      <!-- Make the image a link back to the main page -->
+      <a href="index.html"> <img src="resources/img/home.png" alt="Warehouse Logo"> </a>
+
+      <div class="links">
+        <h4>Get to know us</h4>
+        <a href="about.html">About us</a>
+        <a href="jobs.html">Jobs</a>
+        <a href="#">Investor relations</a>
+        <!-- Incorrect link - remove <a href="#">Link</a> -->
+      </div>
+      <div class="links">
+        <h4>Make money with us</h4>
+        <a href="sell.html">Sell on WareHouse</a>
+        <a href="#">Become a vendor</a>
+        <a href="#">Fundraiser events</a>
+        <a href="#">Community outreach</a>
+      </div>
+      <div class="links">
+        <h4>Help</h4>
+        <a href="#">Contact us</a>
+        <a href="#">Conditions of use</a>
+        <a href="#">Report a problem</a>
+        <a href="#">Privacy Policy</a>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
